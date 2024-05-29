@@ -20,16 +20,14 @@ This project features a sound sensor for a miniature house that detects sounds l
    git clone https://github.com/yourusername/miniature-house-sound-sensor.git
    ```
 2. Open the project in your preferred IDE (e.g., Arduino IDE).
-
-### Usage
-1. Connect the sound sensor to the microcontroller as per the circuit diagram.
-2. Upload the provided code to the microcontroller.
-3. Test the setup by making a clap or snap sound near the sensor to switch the lights.
-4. If necessary, adjust the sensitivity of the sound sensor module to optimize detection based on your environment. 
-5. Integrate the sound sensor into the house system.
+3. Connect the sound sensor to the microcontroller as per the circuit diagram.
+4. Upload the provided code to the microcontroller.
+5. Test the setup by making a clap or snap sound near the sensor to switch the lights.
+6. If necessary, adjust the sensitivity of the sound sensor module to optimize detection based on your environment. 
+7. Integrate the sound sensor into the house system.
 
 ### Circuit Diagram
-
+![sound sensor diagram](mhss-schematic.png)
 
 ### Code Example
 ```cpp
@@ -48,6 +46,3 @@ void loop() {
   }
 }
 ```
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
