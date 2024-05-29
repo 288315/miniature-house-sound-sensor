@@ -36,33 +36,17 @@ This project features a sound sensor for a miniature house that detects sounds l
 // Example code snippet
 void setup() {
   pinMode(SOUND_SENSOR_PIN, INPUT);
-  pinMode(, OUTPUT);
+  pinMode(LIGHT_SYSTEM_PIN, OUTPUT);
 }
 
 void loop() {
   int soundState = digitalRead(SOUND_SENSOR_PIN);
   if (soundState == HIGH) {
-    // Toggle whole house system on or off
-    // Add your code to control the whole house system here
+    // Toggle lights on or off
+    // Add code to control the system
     delay(500); // Debounce delay
   }
 }
-```
-
-```cpp
-// Define constants for pin numbers
-const int SOUND_SENSOR_PIN = 2;  // Sound sensor pin connected to Arduino digital pin 2
-const int HOUSE_SYSTEM_PIN = 3;  // House system pin connected to Arduino digital pin 3
-
-void setup() {
-  // Set the mode of the pins
-  pinMode(SOUND_SENSOR_PIN, INPUT);
-  pinMode(HOUSE_SYSTEM_PIN, OUTPUT);
-}
-
-void loop() {
-
-}  
 ```
 
 ## License
